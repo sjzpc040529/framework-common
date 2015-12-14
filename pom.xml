@@ -10,6 +10,7 @@
     <modules>
         <module>framework-common-util</module>
         <module>framework-common-domain</module>
+        <module>framework-common-web</module>
     </modules>
     <packaging>pom</packaging>
     <description>在org.lzh.common包下，任何的项目都可以用这个公用的组件</description>
@@ -324,6 +325,12 @@
                 <version>2.7.2</version>
                 <type>jar</type>
                 <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.adyliu</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>2.1.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
